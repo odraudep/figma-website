@@ -8,62 +8,94 @@
 </head>
 <body>
 
-  <header>
-    <h1>Logo</h1>
+  <div id="menubg"></div> <!--.body_open_menu-->
 
-    <nav class="header-nav">
-      <ul class="header-menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div class="content">
+    <!--------------------------------HEADER-------------------------------->
+    <header>
+      <h1>Logo</h1>
 
-  <section>
-    <h1>Workplace to work</h1>
+      <nav class="header-nav">
+        <input type="checkbox" id="header-menu-checkbox">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    [button]
-  </section>
+        <label for="header-menu-checkbox">
+          <div class="menu-hamb">
+            <div id="hamb"></div>
+          </div>
+        </label>
 
-  <section>
-    <h2>Why am I the right choice for you job?</h2>
+        <ul id="header-menu_container"> <!--.header-menu-->
+          <div class="header-menu_nav">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
 
-    <div>
-      [div-icon]
-      <h3>Full support</h3>
+            <img src="assets/images/search-icon.png" alt="Search icon" id="search-icon">
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
-    </div>
+            <img src="assets/images/woman2.png" alt="Woman" id="header-menu-woman">
+          </div>
+        </ul>
+      </nav>
+    </header>
 
-    <div>
-      [div-icon]
-      <h3>Quality</h3>
+    <!--------------------------------SECTION-------------------------------->
+    <section>
+      <h1>Workplace to work</h1>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
-    </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-    <div>
-      [div-icon]
-      <h3>Planning</h3>
+      <div class="button">
+        Contact me
+      </div>
+    </section>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
-    </div>
-  </section>
+    <!--------------------------------SECTION-------------------------------->
+    <section>
+      <h2>Why am I?</h2>
 
-  <section>
-    [img]
-    [button]
-  </section>
+      <div>
+        [div-icon]
+        <h3>Full support</h3>
 
-  <section>
-    [img]
-  </section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+      </div>
 
+      <div>
+        [div-icon]
+        <h3>Quality</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+      </div>
+
+      <div>
+        [div-icon]
+        <h3>Planning</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed</p>
+      </div>
+    </section>
+
+    <!--------------------------------SECTION-------------------------------->
+    <section>
+      [img]
+
+      <div class="button">
+        Contact me
+      </div>
+    </section>
+
+    <!--------------------------------SECTION-------------------------------->
+    <section>
+      [img]
+    </section>
+  </div>
+
+  <!--------------------------------FOOTER-------------------------------->
   <footer>
     <p>&copy; Eduardop</p>
   </footer>
+
+  <script src="assets/js/script.js"></script>
 
 </body>
 </html>
