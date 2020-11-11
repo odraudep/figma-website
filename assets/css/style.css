@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
-/***************RESETS AND DEFAULTS***************/
+/*********************************RESETS AND DEFAULTS*********************************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  overflow-x: hidden;
 }
 
-body {
-  position: relative;
+html, body {
+  max-width: 100%;
   height: 400vh;
+  overflow-x: hidden;
+  position: relative;
 }
 
 :root {
@@ -62,6 +63,7 @@ p {
 
 /*black-bg-menu*/
 #menubg {
+  display: none;
   width: 100vw;
   height: 100vh;
   position: absolute;
@@ -73,6 +75,7 @@ p {
 }
 
 .body_open_menu {
+  display: block !important;
   opacity: 1 !important;
 }
 /*-------------*/
@@ -96,11 +99,15 @@ footer p {
   color: var(--white);
 }
 
-/***************HEADER***************/
+/*********************************HEADER*********************************/
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#logo {
+  margin-top: 10px;
 }
 
 .menu-hamb {
@@ -115,11 +122,11 @@ header {
   z-index: 1;
 }
 
+/*input[type: checkbox]*/
 #header-menu-checkbox {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  display: none;
 }
+/***********************/
 
 #hamb {
   width: 100%;
@@ -191,4 +198,26 @@ header {
   position: absolute;
   right: 10px;
   bottom: 14px;
+}
+
+/*********************************SECTION*********************************/
+.section-workplace {
+  height: calc(200vh - 52px);
+}
+
+#section-workplace-woman {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.section-workplace-txt {
+  margin-top: 200px;
+}
+
+.section-workplace-txt h1 {
+  margin-bottom: 15px;
+}
+
+.section-workplace-txt p {
+  margin-bottom: 20px;
 }
