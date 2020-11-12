@@ -27,7 +27,6 @@ html, body {
 
 body {
   position: relative;
-  background: url(../images/bg-mobile.png) top left cover no-repeat ;
 }
 
 .hidden {

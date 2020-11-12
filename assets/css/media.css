@@ -1,7 +1,7 @@
 @media (min-width: 1366px) {
   /*********************************RESETS AND DEFAULTS*********************************/
   body {
-    background: url(../images/bg-desktop.png);
+    background: url(../images/bg-desktop.png) top left/cover no-repeat;
   }  
 
   h1 {

@@ -1,3 +1,7 @@
+body {
+  background: url(../images/bg-mobile.png) top left/cover no-repeat;
+}
+
 /*********************************HEADER*********************************/
 header {
   display: flex;
