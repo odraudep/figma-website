@@ -101,14 +101,18 @@ footer {
   background-color: var(--blue);
 }
 
+#btntop {
+  width: 30px;
+  position: absolute;
+  left: 30px;
+}
+
 footer p {
   font-size: 15px;
   font-weight: bold;
   color: var(--white);
 }
 
-#btntop {
-  width: 30px;
-  position: absolute;
-  left: 30px;
+.footer-icons {
+  display: none;
 }

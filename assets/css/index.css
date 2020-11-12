@@ -109,8 +109,8 @@ header {
 }
 
 #section-workplace-woman {
-  width: 100%;
-  margin-top: 80px;
+  width: 105%;
+  margin: 80px 0 0 -5%;
 }
 
 .section-workplace-txt {
@@ -181,6 +181,7 @@ header {
 
 .section-graph img {
   width: 100%;
+  margin: auto;
 }
 
 .section-graph img:last-child {
