@@ -1,0 +1,35 @@
+@media (min-width: 1366px) {
+  /*********************************RESETS AND DEFAULTS*********************************/
+  h1 {
+    font-size: 64px;
+  }
+  
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 36px;
+  }
+  
+  p {
+    font-size: 30px;
+    color: var(--black3);
+  }
+
+  .button {
+    width: 190px;
+    height: 60px;
+    border-radius: 156px;
+    background-color: var(--redPink);
+    font-size: 30px;
+  }
+
+  body {
+    background: url(../images/bg-desktop.png);
+  }
+
+  footer {
+    height: 95px;
+  }
+}
