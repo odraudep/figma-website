@@ -1,3 +1,4 @@
+// hamburguer menu
 const menuCheck = document.querySelector('#header-menu-checkbox')
 const menuCont = document.querySelector('#header-menu_container')
 const menuBg = document.querySelector('#menubg')
@@ -15,18 +16,17 @@ menuCheck.addEventListener('click', () => {
 })
 
 menuBg.addEventListener('click', () => {
-    menuCont.classList.remove('header-menu')
-    menuBg.classList.remove('body_open_menu')
+  menuCont.classList.remove('header-menu')
+  menuBg.classList.remove('body_open_menu')
 
-    menuCheck.checked = false
+  menuCheck.checked = false
 })
 
 // scrool to top
-let scroolToTopBtn = document.querySelector('#btntop')
-let rootElement = document.documentElement
+const scroolToTopBtn = document.querySelector('#btntop')
+const rootElement = document.documentElement
 
 scroolToTopBtn.addEventListener('click', () => {
-  // scroolo to top logic
   rootElement.scrollTo({
     top: 0,
     behavior: 'smooth'
