@@ -301,3 +301,7 @@ header {
   width: 100%;
 }
 
+.section-graph img:last-child {
+  display: none;
+}
+
