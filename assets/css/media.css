@@ -1,8 +1,8 @@
 @media (min-width: 1366px) {
   /*********************************RESETS AND DEFAULTS*********************************/
-  .content {
-    width: 90%;
-  }
+  body {
+    background: url(../images/bg-desktop.png);
+  }  
 
   h1 {
     font-size: 64px;
@@ -21,6 +21,10 @@
     color: var(--black3);
   }
 
+  .content {
+    width: 90%;
+  }
+
   .button {
     width: 190px;
     height: 60px;
@@ -28,14 +32,25 @@
     background-color: var(--redPink);
     font-size: 30px;
   }
-  
+
+  footer {
+    height: 95px;
+  }
+
+  #btntop {
+    cursor: pointer;
+    width: 70px;
+    left: 60px;
+  }
+
+  footer p {
+    font-size: 36px;
+  }
+
+  /*********************************SECTION-WORKPLACE*********************************/  
   #section-workplace-woman {
     width: 636px;
     margin-top: 100px;
-  }
-
-  body {
-    background: url(../images/bg-desktop.png);
   }
 
   .section-graph img:first-child {
@@ -46,16 +61,4 @@
     display: block;
   }
 
-  footer {
-    height: 95px;
-  }
-
-  #btntop {
-    width: 70px;
-    left: 60px;
-  }
-
-  footer p {
-    font-size: 36px;
-  }
 }
