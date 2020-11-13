@@ -47,11 +47,11 @@
   }
   
   .footer-icons a {
-    transition: transform .4s;
+    transition: transform .7s;
   }
 
   .footer-icons a:hover img {
-    transform: translateY(-5px);
+    transform: translateY(-3px);
   }
 
   #btntop {
