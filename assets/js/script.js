@@ -34,5 +34,6 @@ scroolToTopBtn.addEventListener('click', () => {
   })
 })
 
-// block the search icon to drag it
+// block img icon to drag it
 document.querySelector('#search-icon').ondragstart = function() { return false; };
+document.querySelector('#btntop').ondragstart = function() { return false; };
