@@ -56,6 +56,53 @@
     font-size: 36px;
   }
 
+  /*********************************HEADER*********************************/ 
+  header {
+    height: auto;
+    align-items: flex-end;
+    padding-top: 15px;
+  }
+  
+  #logo {
+    margin-top: 0px;
+  }
+
+  .menu-hamb {
+      display: none;
+    }
+
+  /*menu-container --------- !!!!dynamic!!!!*/
+  #header-menu_container {
+    display: block;
+    width: auto;
+    height: auto;
+    position: initial;
+    background: none;
+  }
+  /*----------------------------------------*/
+
+  .header-menu_nav {
+    display: flex;
+  }
+
+  .header-menu_nav li {
+    margin: 0 45px 0 0 !important;
+  }
+
+  .header-menu_nav li a:hover {
+    border-bottom: 2px solid var(--orange);
+  }
+
+  #search-icon {
+    pointer-events: fill;
+    cursor: pointer !important;
+    position: initial;
+  }
+
+  #header-menu-woman {
+    display: none;
+  }
+
   /*********************************SECTION-WORKPLACE*********************************/
   .section-workplace {
     display: flex;

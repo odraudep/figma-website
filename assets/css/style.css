@@ -55,6 +55,10 @@ p {
   color: var(--black3);
 }
 
+img {
+  pointer-events: none;
+}
+
 .button {
   display: flex;
   justify-content: center;

@@ -18,6 +18,7 @@ menuCheck.addEventListener('click', () => {
 menuBg.addEventListener('click', () => {
   menuCont.classList.remove('header-menu')
   menuBg.classList.remove('body_open_menu')
+  document.body.classList.remove('hidden')
 
   menuCheck.checked = false
 })
@@ -32,3 +33,6 @@ scroolToTopBtn.addEventListener('click', () => {
     behavior: 'smooth'
   })
 })
+
+// block the search icon to drag it
+document.querySelector('#search-icon').ondragstart = function() { return false; };
