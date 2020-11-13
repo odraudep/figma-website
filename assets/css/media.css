@@ -45,6 +45,14 @@
     right: 5%;
     width: 225px;
   }
+  
+  .footer-icons a {
+    transition: transform .4s;
+  }
+
+  .footer-icons a:hover img {
+    transform: translateY(-5px);
+  }
 
   #btntop {
     cursor: pointer;

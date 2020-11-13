@@ -72,6 +72,10 @@ img {
   color: var(--white);
 }
 
+.button:hover {
+  background-color: #dd1d60;
+}
+
 /*black-bg-menu --------- !!!!DYNAMIC!!!!*/
 #menubg {
   display: none;
