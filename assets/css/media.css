@@ -1,4 +1,4 @@
-@media (min-width: 1366px) {
+@media (min-width: 768px) {
   /*********************************RESETS AND DEFAULTS*********************************/
   body {
     background: url(../images/bg-desktop.png) top left/cover no-repeat;
@@ -180,7 +180,7 @@
   }
 
   .section-graph img {
-    width: 1110px;
+    width: 90%;
   }
 
   .section-graph img:first-child {
